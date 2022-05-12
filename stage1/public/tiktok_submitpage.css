@@ -1,0 +1,72 @@
+
+/* Import the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;600&display=swap');
+/*------------------------------------------------------------*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    font-family: 'Boogaloo', cursive; 
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px
+}
+
+#message_and_submit {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    gap: 50px;
+}
+
+#contButton{
+    align-self: center;
+}
+
+#success_message {
+    font-family: 'Boogaloo', cursive;
+    font-size: 48px;
+    text-align: center;
+}
+
+.button {
+    background-color: rgba(238, 29, 82, 0.9);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+#video_nickname {
+  color: #EE1D52;
+}
+
+/*Mobile View*/
+@media (max-width: 480px){
+  
+  #title {
+      font-size: 32px;
+  }
+
+  .button {
+      font-size: 16px;
+      width: 140px;
+  }
+  
+  #contButton {
+      margin-top: 75px;
+  }
+  #success_message {
+    font-size: 32px;
+  }
+}

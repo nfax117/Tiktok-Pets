@@ -1,0 +1,59 @@
+
+<!doctype HTML> 
+
+<HTML> 
+  
+<HEAD>
+  <meta charset="utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Pets</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="tiktok_webpage.css">
+  <link rel="stylesheet" type="text/css" href="https://ecs-162-spring-2022.profamenta.repl.co/reset.css" />
+  <script src="tiktok_webpage.js" defer></script>
+</HEAD>
+
+<body> 
+
+    <!-- The Header which is "TikTok Pets" and "My Videos" box -->
+    <header>
+        <!-- TikTok Pets -->
+        <div id="title">
+            TikTok Pets
+        </div>
+        <!-- My Videos button -->
+        <div id="videos_button">
+            <button class="button">My Videos</button>                
+        </div>
+    </header>
+
+    <main>
+        <div id = "form_div">
+            <div id = "form_content">
+                <h1 id="sub_video">Submit a video:</h1>
+                <div id="username_div" class = "text_and_input">
+                    <label for="username">Username:</label><br>
+                    <input type="text" placeholder="awesometiktokuser123" id="username" name="username" class = "form_input"><br>
+                </div>
+                <div id="url_div" class = "text_and_input">
+                    <label for="tiktok_url">Tiktok URL:</label><br>
+                    <input type="text" placeholder="https://tiktok.com/12345" id="tiktok_url" name="tiktok_url" class = "form_input"><br>
+                </div>
+                <div id="nickname_div" class = "text_and_input">
+                    <label for="videoname">Video nickname:</label><br>
+                    <input type="text" placeholder="Bob the supercat" id="videoname" name="videoname" class = "form_input"><br>
+                </div>
+            </div>
+        </div>
+        <input type="submit" value="Continue" class="button" id="contButton">
+
+    </main>
+
+
+</body>
+
+</html> 
+
+
+
+
